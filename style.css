@@ -1,0 +1,150 @@
+*,
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    direction: ltr;
+
+}
+
+#mainC {
+    text-align: center;
+    margin: auto;
+    width: 92%;
+}
+
+.companyLogo {
+    margin-top: 14px;
+    border: 0;
+    display: inline-block;
+    vertical-align: top;
+    width: 112px;
+    height: 39.5px;
+    cursor: pointer;
+    line-height: 18px;
+    padding: 2.9px;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+#feedbackInput {
+    -webkit-appearance: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+    border: 0;
+    display: block;
+    margin: 0;
+    background: #f5f6f7;
+    text-align: left;
+    font-size: 14px;
+    line-height: 20px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+#btnSub {
+    font-size: 17px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    width: 100%;
+    text-shadow: 0 -1px rgb(0 0 0 / 25%);
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    position: relative;
+    -webkit-user-select: none;
+    z-index: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    text-align: center;
+    vertical-align: top;
+    white-space: nowrap;
+    font-weight: bold;
+    font-family: sans-serif;
+    writing-mode: horizontal-tb !important;
+    background-color: #1877f2;
+    border-radius: 4px;
+
+
+}
+
+
+#forgeta {
+    color: #216fdb;
+    font-family: 'Roboto-Regular', 'Helvetica', 'sans-serif';
+    font-size: 14px;
+    line-height: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#cAccount {
+    background: white;
+    border-color: #bec3c9;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: none;
+    color: #000;
+    display: inline-block;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -0.23px;
+    text-align: center;
+    text-shadow: none;
+    white-space: nowrap;
+    border: .1px solid #bec3c9;
+    line-height: 27px;
+    padding: 3px 94px 3px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    min-width: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: bottom;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#fot {
+    padding: 6px;
+    color: #576b95;
+    display: inline-flex;
+    text-align: center;
+    cursor: pointer;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.leftF {
+    margin-right: 56px;
+    margin-left: 0;
+    flex: 1;
+    min-width: 0;
+    width: 100px;
+    display: block;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.rightF {
+    margin-left: 56px;
+    flex: 1;
+    min-width: 0;
+    width: 100px;
+    display: block;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
